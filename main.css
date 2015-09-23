@@ -64,6 +64,7 @@
 .authors li {
   display: inline-block;
   list-style: none;
+  
 }
 .authors {
   padding: 2px;
@@ -79,10 +80,10 @@ li.octocat > a:after {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 10px 5px 0 5px;
+  border-width: 8px 6px 0 8px;
   border-color: #a0acb8 transparent transparent transparent;
   position: absolute;
-  bottom: 33px;
-  right: 10px;
+  bottom: 35px;
+  right: 9px;
 }
 
