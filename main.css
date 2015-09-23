@@ -41,9 +41,12 @@
   width: 20px;
   display: inline-block;
   float: right;
-  margin: 5px;
+  margin-bottom: 5px;
 }
 .authors li {
   display: inline-block;
   list-style: none;
+}
+.authors {
+  padding: 2px;
 }
