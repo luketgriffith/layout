@@ -17,14 +17,18 @@
   
   display: inline-block;
   margin: 2px;
-  padding: 2px;
+  padding: 0px 0px 8px 0px;
   float: left;
 }
 .image-caption {
   float:right;
   display: inline-block;
+  }
+.image-caption a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-
 .image-footer {
   border-bottom: 1px solid gray;
   height: 30px;
@@ -37,11 +41,15 @@
   float: right;
 }
 .image-footer img {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   display: inline-block;
   float: right;
+  margin-left: 3px;
+  margin-right: 0px;
   margin-bottom: 5px;
+  border: none;
+
 }
 .authors li {
   display: inline-block;
@@ -49,4 +57,7 @@
 }
 .authors {
   padding: 2px;
+}
+.image-footer span{
+  margin-top: 10px;
 }
